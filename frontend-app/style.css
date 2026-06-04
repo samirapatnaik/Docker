@@ -1,0 +1,95 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  padding: 25px 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+  color: #60a5fa;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+/* ===== TEXT ===== */
+p {
+  color: #cbd5e1;
+  font-size: 1rem;
+}
+
+/* ===== BUTTON (if needed later) ===== */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
+}
+
+/* ===== FOOTER (optional) ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  section {
+    margin: 20px 15px;
+    padding: 20px;
+  }
+}
